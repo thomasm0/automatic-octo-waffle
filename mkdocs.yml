@@ -1,0 +1,6 @@
+site_name: 'example-docs'
+site_description: 'Lorem ipsum odor amet'
+plugins:
+  - techdocs-core
+nav:
+  - Getting Started: index.md

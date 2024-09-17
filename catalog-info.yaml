@@ -1,0 +1,14 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-component
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ft-automatic-octo-waffle
+  description: Test application repository for techdocs
+  tags: [markdown]
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: thomasm0/automatic-octo-waffle
+spec:
+  type: service
+  lifecycle: production
+  owner: ext-ft
