@@ -44,3 +44,5 @@ nav:
     - compose_config: compose_config.md
     - compose_pause: compose_pause.md
     - compose_stats: compose_stats.md
+  - Internal:
+    - index: internal/index.md
